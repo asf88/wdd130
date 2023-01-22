@@ -1,0 +1,18 @@
+<p class='main-para'>BYU-Idaho is a comfortable place to learn and grow as a disciple of Jesus Christ because students, faculty, and employees share a commitment to live the gospel.</p>
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+<p1 class='short'>BYU-Idaho is a comfortable place to learn and grow as a disciple of Jesus Christ because students, faculty, and employees share a commitment to live the gospel.</p>
+.short {
+    font-size: 100.5em;
+    line-height: 100.5em;
+}
+#active {
+    background-color: rgb(0, 0, 0);
+    color: steelblue;
+}
+#active {
+    background-color: white;
+    color: steelblue;
+}
