@@ -1,0 +1,61 @@
+
+
+* {
+    background-color: rgb(235, 76, 235)
+}
+a {
+    font-size: 3em;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+nav {
+    text-align: center;
+}
+div {
+    width: 350px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    margin: 0 auto;
+    font-weight: 100;
+}
+p {
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    width: 285px;
+    margin: 0 auto;
+}
+#p1id {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+#p2id {
+    font-size: 18px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 500px;
+    margin: 0 auto;
+}
+img {
+    width: 13%;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    width: 285px;
+    margin: 0 auto;
+
+}
