@@ -24,6 +24,10 @@ main section {
 }
 body {
     background-color: rgb(115, 142, 223);
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: rgba(141, 52, 224);
@@ -32,21 +36,33 @@ nav a:hover {
     background-color: rgb(36, 56, 117);
     color: rgb(153, 159, 214);
     text-decoration: underline;
+    padding: 35px;
 }
 .book, .join {
     background-color: rgb(109, 47, 47);
     color: rgb(55, 167, 3);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .msg {
     background-color: rgb(81, 111, 211);
+    line-height: 1.5em
 }
 footer {
     background-color: rgb(135, 118, 231);
     color: darkmagenta;
+    margin-top: 200px;
 }
 .home-title {
     color: rgb(76, 77, 18);
+    font-size: 2em;
+    margin-top: 10px
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color: rgb(6, 53, 6);
@@ -59,19 +75,23 @@ h4 {
 }
 .msg p {
     color: rgb(21, 29, 49);
+    padding-bottom: 15px;
 }
 footer a {
     color: rgb(34, 46, 99);
     text-decoration: none;
+    padding: 25px 50px;
 }
 footer a:hover {
     color: rgb(29, 0, 158);
+    
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -81,4 +101,19 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+#logo-link {
+    padding-top: 5px;
+}
+.social {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {  
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid rgb(55, 50, 119);
+}
+main section img {
+    box-sizing: border-box;
 }
