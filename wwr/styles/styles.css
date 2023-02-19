@@ -60,6 +60,7 @@ footer {
     background-color: rgb(135, 118, 231);
     color: darkmagenta;
     padding: 25px 50px;
+    font-size: small;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
