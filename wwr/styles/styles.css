@@ -228,3 +228,15 @@ nav {
         margin-top: 25px;
     }
 }
+.home-grid2 {
+    font-size: medium;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.rivers_p1 {
+    font-size: 16px;
+    margin: 0 auto;
+    grid-column: 2/3;
+}
+.card-img_page2 {
+    size: 75%;
+}
