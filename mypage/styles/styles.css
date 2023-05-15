@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+aside {
+    margin: 1em;
+    border: 10px solid;
+    padding: 20px;
+    background-color: blueviolet;
+    color: aqua;
+    width: 32em;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: steelblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow:  0 0 30px gray;
+}
+
+p {
+    padding: 0;
+}
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border:  1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
