@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kalam:wght@300&display=swap');
+body {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Kalam', cursive;
+    background-color: var(--third-color);
+    width: 1600px;
+}
+:root {
+    --headings-color: #28262C;
+    --secondary-color: #998FC7;
+    --third-color: #D4C2FC;
+    --fourth-color: #533483;
+  }
+  a {
+    text-decoration: none;
+    font-size: 175%;
+    color: var(--headings-color);
+  }
+
+  h1 {
+    font-size: 250%;
+    color: var(--headings-color);
+    position: absolute;
+  }
+  h2 {
+    font-size: 250%;
+    color: var(--headings-color);
+  }
+  p {
+    font-size: 125%;
+    color: var(--fourth-color);
+  }
+  h3 {
+    font-size: 125%;
+    color: var(--fourth-color);
+  }
+  footer {
+    color: var(--third-color);
+  }
+  .logo {
+    width: 250px;
+  }
+  .social img {
+    width: 35px;
+  }
+  .hero {
+    width: auto;
+  }
+  .hero {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
