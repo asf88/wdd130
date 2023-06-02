@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <table>
+    <caption>Table 1: A Try it example</caption>
     <thead>
         <tr>
             <th colspan="2">The table header</th>
@@ -15,8 +17,15 @@
     </thead>
     <tbody>
         <tr>
-            <td>The table body</td>
-            <td>with two columns</td>
+            <td>Column 1, Row 1</td>
+            <td>Column 2, Row 1</td>
+        </tr>
+        <tr>
+            <td>Column 1, Row 2</td>
+            <td rowspan="2">Column 2, Row 2</td>
+        </tr>
+        <tr>
+            <td>Column 1, Row 3</td>
         </tr>
     </tbody>
 </table>

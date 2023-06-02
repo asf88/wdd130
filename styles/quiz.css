@@ -1,0 +1,26 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    line-height: 45px;
+    margin: 15px 15px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1600px;
+}
+form {
+    background-color: rgb(192, 164, 218);
+    grid-column: 2/3;
+}
+h2 {
+    margin: auto;
+}
+button {
+    display: block;
+    background-color: rgb(13, 195, 101);
+    max-width: 250px;
+    max-height: 150px;
+    justify-self: center;
+    margin: auto;
+}
+textarea {
+    resize: none;
+}
