@@ -15,6 +15,10 @@ body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
+header img {
+    float: right;
+    width: 150px;
+}
 header, main, footer {
     width: 840px;
     margin: 0 auto;
@@ -44,7 +48,7 @@ nav, p, section, article {
 }
 h1 {
     position: absolute;
-    top: 20px;
+    top: 120px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -67,4 +71,8 @@ article {
     border: black;
     margin: 10px;
     box-shadow: darkblue;
+}
+header {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
