@@ -22,6 +22,7 @@ header img {
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+    background-color: var(--accent2-color);
 }
 h1, h2 {
     background-color: var(--accent1-color);
@@ -130,5 +131,4 @@ header {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
-    margin-top: 10px;
 }
