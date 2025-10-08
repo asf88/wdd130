@@ -12,12 +12,16 @@
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="logo">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="logo">
+        </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </ul>
         </nav>
     </header>
     <main>
@@ -31,19 +35,43 @@
                     equipment.</p>
             </article>
         </div>
-        <section>
+        <section class="history">
             <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestiae distinctio doloremque
-                perferendis soluta cupiditate ipsa illum sapiente quisquam accusantium quo, quasi temporibus?
-                Rerum soluta nulla odit excepturi consequuntur, sint cum sequi vel corporis velit veniam ex
-                mollitia ad laboriosam quod dignissimos, voluptatum ratione dolor officia atque quaerat tempore
-                doloribus.</p>
+            <div class="history-grid">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestiae distinctio doloremque
+                    perferendis soluta cupiditate ipsa illum sapiente quisquam. Lorem ipsum dolor sit amet.</p>
+                <img src="images/history.jpg" alt="history">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestiae distinctio doloremque
+                    perferendis soluta cupiditate ipsa illum sapiente quisquam. Lorem ipsum dolor sit amet.</p>
+            </div>
         </section>
-        <section>
+        <section class="adventure">
             <h2>Adventure Awaits You!</h2>
+            <div class="span-grid">
+                <figure>
+                    <img src="images/span1.jpg" alt="span1">
+                    <figcaption>River One</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/span2.jpg" alt="span2">
+                    <figcaption>River Two</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/span3.jpg" alt="span3">
+                    <figcaption>Tiver Three</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/span4.jpg" alt="span4">
+                    <figcaption>River Four</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/span5.jpg" alt="span5">
+                    <figcaption>River Five</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025, The Rafting Life, Anton Fatenko</p>
         <nav class="socialmedia">
             <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook"></a>
